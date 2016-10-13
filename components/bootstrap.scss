@@ -1,5 +1,5 @@
 @import '~bootstrap-tlnd-theme/src/theme/bootstrap';
-/* latin-ext */
+/* Google */
 @font-face {
   font-family: 'Source Sans Pro2';
   font-style: normal;
@@ -8,12 +8,20 @@
   unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
 }
 
-/* latin */
 @font-face {
   font-family: 'Source Sans Pro2';
   font-style: normal;
   font-weight: 400;
   src: local('Source Sans Pro2'), local('SourceSansPro-Regular'), url('../fonts/source-sans-pro-regular-latin.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+
+/* Frontity */
+@font-face {
+  font-family: 'Source Sans Pro3';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Source Sans Pro3'), local('SourceSansPro-Regular'), url('../fonts/Source_Sans_Pro_400.woff') format('woff');
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
 }
 
@@ -30,4 +38,8 @@
 
 .project {
   font-family: "Source Sans Pro2", sans-serif;
+}
+
+.frontity {
+  font-family: "Source Sans Pro3", sans-serif;
 }
