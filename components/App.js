@@ -1,11 +1,18 @@
 import React from 'react'
+import "./bootstrap.scss";
 
 class App extends React.Component {
   render() {
     return (
         <div>
-            <div style={{ padding: 20 }}>
-                {this.props.children}
+            <div className="bootstrap_common">
+                Talend bootstrap theme fonts: <br />
+                ABCDEFGabcdefg
+            </div>
+            <br />
+            <div className="project">
+                Google fonts: <br />
+                ABCDEFGabcdefg
             </div>
         </div>
     )
